@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+  <script type="text/javascript">
+    var images = [
+      'bus.jpg',
+      'flower.jpg',
+      'trees.jpg',
+      'lake.jpg',
+      'desert.jpg'
+    ];
+    document.body.style.backgroundImage=
+      'url(images/' + images[Math.floor(Math.random() * images.length)] + ')';
+  </script>
+
+</body>
+</html>
